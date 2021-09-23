@@ -1,0 +1,195 @@
+/* GOOGLE FONTS --------- */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
+
+/* VARIABLE CSS-------- */
+:root {
+	--header-height: 3rem;
+
+	--hue-color: 250;
+
+	--first-color: hsl(var(--hue-color), 69%, 61%);
+	--first-color-second: hsl(250, 69%, 61%);
+	--first-color-alt: hsl(250, 57%, 53%);
+	--first-color-lighter: hsl(250, 92%, 85%);
+	--title-color: hsl(250, 8%, 15%);
+	--text-color: hsl(250, 8%, 45%);
+	--text-color-light: hsl(250, 8%, 65%);
+	--input-color: hsl(250, 70%, 96%);
+	--body-color: hsl(250, 60%, 99%);
+	--container-color: #fff;
+}
+/*========== Variables Dark theme ==========*/
+
+/*========== Button Dark/Light ==========*/
+
+/*==================== BASE ====================*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0 0 3rem 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 0.938rem;
+	background-color: #fff;
+	color: rgb(19, 18, 18);
+}
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	font-weight: 600;
+}
+
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*==================== REUSABLE CSS CLASSES ====================*/
+.section {
+	padding: 2rem 0 4rem;
+}
+.section_title {
+	font-size: 1.5rem;
+}
+.section_subtitle {
+	display: block;
+	font-size: 0.813rem;
+	margin-bottom: 3rem;
+}
+.section_title,
+.section_subtitle {
+	text-align: center;
+}
+/*==================== LAYOUT ====================*/
+.container {
+	max-width: 768px;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+}
+.grid {
+	display: grid;
+	gap: 1.5rem;
+}
+.header {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	background-color: #fff;
+}
+
+/*==================== NAV ====================*/
+.nav {
+	max-width: 968px;
+	height: 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav_logo,
+.nav_toggle {
+	color: black;
+	font-weight: 500;
+}
+.nav_logo:hover {
+	color: #317fd3;
+}
+
+.nav_icon {
+	font-size: 1.2rem;
+}
+.nav_toggle {
+	font-size: 1.1rem;
+	cursor: pointer;
+}
+.nav_toggle:hover {
+	color: #317fd3;
+}
+
+@media (max-width: 768px) {
+	.nav_menu {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+		padding: 2rem 1.5rem 4rem;
+		box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+		border-radius: 1.5rem 1.5rem 0 0;
+		transition: 0.3s;
+	}
+}
+.nav_list {
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+}
+.nav_link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.875rem;
+	color: black;
+	font-weight: 500;
+}
+.nav_link:hover {
+	color: #3c8dad;
+}
+.nav_icon {
+	font-size: 1.2rem;
+}
+/* show menu */
+
+/* Active link */
+
+/* Change background header */
+
+/*==================== HOME ====================*/
+
+/*==================== BUTTONS ====================*/
+
+/*==================== ABOUT ====================*/
+
+/*==================== SKILLS ====================*/
+
+/*==================== QUALIFICATION ====================*/
+
+/*==================== SERVICES ====================*/
+
+/* Active Modal */
+
+/*==================== PORTFOLIO ====================*/
+
+/*==================== PROJECT IN MIND ====================*/
+
+/*==================== TESTIMONIAL ====================*/
+
+/*==================== CONTACT ME ====================*/
+
+/*==================== FOOTER ====================*/
+
+/*========== SCROLL UP ==========*/
+
+/* Show scroll */
+
+/*========== SCROLL BAR ==========*/
+
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+
+/* For medium devices */
+
+/* For large devices */
