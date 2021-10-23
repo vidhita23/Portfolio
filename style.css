@@ -120,7 +120,7 @@ img {
 	color: #317fd3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 	.nav_menu {
 		position: fixed;
 		bottom: -100%;
