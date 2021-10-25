@@ -210,9 +210,53 @@ img {
 	font-weight: 500;
 	margin-bottom: 0.75rem;
 }
+.home_decription{
+	margin-bottom: 2rem;
+}
+.home_scroll{
+	/* display:none; */
+}
+.home_scroll-button{
+	color: #035397;
+	transition: 0.3s;
+}
+.home_scroll-button:hover{
+	transform: translateY(0.25rem);
+}
+.home_scroll-mouse{
+	font-size:2rem ;
+}
+.home_scroll-name{
+	font-size: 0.813rem;
+	color: #035397;
+	font-weight: 500;
+	margin-right: 0.25rem;
+}
+.home_scroll-arrow{
+	font-size: 1.25rem;
+}
 
 /*==================== BUTTONS ====================*/
-
+.button{
+	display: inline-block;
+	background-color: #035397;
+	color: white;
+	padding: 0.6rem;
+	border-radius: 0.5rem;
+	font-weight: 500;
+}
+.button:hover{
+	background-color: #5089C6;
+}
+.button_icon{
+	font-size: 1.25rem;
+	transition: 0.3s;
+	margin-left: 0.5rem;
+}
+.button-flex{
+	display: inline-flex;
+	align-items: center;
+}
 /*==================== ABOUT ====================*/
 
 /*==================== SKILLS ====================*/
