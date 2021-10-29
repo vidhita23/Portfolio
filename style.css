@@ -294,6 +294,20 @@ img {
 
 /*==================== SKILLS ====================*/
 
+.skills_container{
+	row-gap: 0;
+}
+.skills_header{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2.5rem;
+	cursor: pointer;
+}
+.skills_icon,
+.skills_arrow{
+	font-size: 2rem;
+}
+
 /*==================== QUALIFICATION ====================*/
 
 /*==================== SERVICES ====================*/
