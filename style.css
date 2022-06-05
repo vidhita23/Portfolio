@@ -306,9 +306,28 @@ img {
 .skills_icon,
 .skills_arrow{
 	font-size: 2rem;
+	color: #035397;
+}
+.skills_icon{
+	margin-right: 0.75rem;
+}
+.skills_title
+{
+	font-size: 1.125rem ;
+}
+.skills_subtitle{
+	font-size: 0.813rem;
+	
 }
 
+
+
+
+
+
+
 /*==================== QUALIFICATION ====================*/
+
 
 /*==================== SERVICES ====================*/
 
